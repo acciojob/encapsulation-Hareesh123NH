@@ -8,7 +8,7 @@ public class Main {
         The field RWOnly.name is not visible
 
         at com.driver.Main.main(Main.java:6)*/
-    obj.setter("Hareesh");
-    System.out.println(obj.getter());
+    obj.setName("Hareesh");
+    System.out.println(obj.getName());
   }
 }
